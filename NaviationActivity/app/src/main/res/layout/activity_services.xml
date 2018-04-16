@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zxing_status_text"
+    tools:context="com.example.administrator.naviationactivity.services">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="347dp"
+        android:layout_height="492dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Extending its services to the various corporate and business spaces in the city as well as residences is AC Expertz at Dhayari Phata. While spreading its wings over a wider customer base, the company has mastered the skill of repairing both window air conditioners and split unit air conditioners. The staff's ability to restore damages caused to various brands of air conditioners is remarkable. Their experience is what drives them to be able to diagnose problems quickly as well as decide on a plan of action to restore the same. Apart from this, they extend their services to those looking to have their air conditioning units installed. Open from 08:00 - 21:00, this center looks to make its services available for a major part of the day."
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="31dp"
+        android:text="Services "
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
+
+
+

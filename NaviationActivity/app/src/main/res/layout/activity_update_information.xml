@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.naviationactivity.UpdateInformation">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="28dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:text="Contact No." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="27dp"
+        android:text="Amount Paid" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/ampaid"
+        android:layout_marginTop="18dp"
+        android:text="Signature" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/feed"
+        android:layout_alignEnd="@+id/textView4"
+        android:text="Feedback" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/noddy"
+        android:layout_alignBottom="@+id/noddy"
+        android:layout_alignStart="@+id/textView5"
+        android:text="Take photo of the AC and upload  here" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="UPDATE" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="@string/eun"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/fname"
+        android:ems="10"
+        android:hint="@string/ecn"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/ampaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cnumber"
+        android:layout_alignTop="@+id/textView3"
+        android:ems="10"
+        android:hint="@string/eap"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/oswald"
+        android:layout_below="@+id/value"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/eyf"
+        android:inputType="textLongMessage" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:text="Rate your purchase" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="30dp"
+        android:numStars="5" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/submit"
+        android:layout_below="@+id/textView7"
+        android:progressTint="@android:color/holo_blue_dark"
+        android:text="Value:" />
+
+    <Button
+        android:id="@+id/oswald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ampaid"
+        android:layout_below="@+id/ampaid"
+        android:text="Click here" />
+
+    <Button
+        android:id="@+id/noddy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="Click me" />
+
+
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.naviationactivity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/a"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="AC EXPERTZ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".splash"
+            android:label="AC Expertz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutus"
+            android:label="About Us"/>
+        <activity android:name=".about"
+            android:label="Contact Us"/>
+        <activity android:name=".services"
+            android:label="Services"/>
+        <activity android:name=".UpdateInformation"
+            android:label="Update Information"/>
+        <activity android:name=".adminlogin"
+            android:label="Admin Login"/>
+        <activity android:name=".signaturepad" />
+        <activity android:name=".camera"></activity>
+    </application>
+
+</manifest>

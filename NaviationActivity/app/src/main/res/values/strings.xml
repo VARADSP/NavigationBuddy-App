@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NaviationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="textview">TextView</string>
+    <string name="ac">ACExpertz</string>
+    <string name="ean">Enter admin name</string>
+    <string name="eaap">Enter password</string>
+    <string name="la">Login</string>
+    <string name="eun">Enter your full name</string>
+    <string name="ecn">Enter your contact number</string>
+    <string name="eap">Enter the amount paid</string>
+    <string name="eyf">Feedback about the installation</string>
+    <string name="fnamer">Enter your name</string>
+    <string name="cnumberr">Enter your contact number</string>
+    <string name="ampaidr">Enter amount you have paid</string>
+    <string name="feedr">It will be a great pleasure to know your feedback</string>
+
+</resources>
